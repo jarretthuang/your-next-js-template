@@ -1,3 +1,3 @@
 
 ## App Name
-This is an app written by me that does amazing things.
+This is an app written by [YOUR_NAME] that does amazing things!

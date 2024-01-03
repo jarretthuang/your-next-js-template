@@ -1,14 +1,5 @@
 import "./globals.css";
-import { Ubuntu } from "next/font/google";
-
-// Customize the fonts you want to use here
-const ubuntu = Ubuntu({
-  weight: ["300", "400", "500", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-});
-const fonts = [ubuntu];
-const fontsCssClass = fonts.map((font) => font.className).join(" ");
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
   children,
@@ -17,7 +8,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fontsCssClass}>{children}</body>
+      {/* Pick your theme colours here. This impacts the border colour in certain browsers such as Safari on iOS. */}
+      <meta
+        name="theme-color"
+        media="(prefers-color-scheme: dark)"
+        content="#ffffff"
+      />
+      <meta name="theme-color" content="#000000" />
+      <body>{children}</body>
+      {/* Remove or replace this with other vendors if you're not using Vercel Analytics */}
+      <Analytics />
     </html>
   );
 }
