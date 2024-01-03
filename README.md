@@ -1,5 +1,5 @@
 <h1 align="center">Your Next.js Template by
-    <a href="https://json.jhuang.ca/" target="_blank">
+    <a href="https://labs.jhuang.ca/" target="_blank">
         <img src="https://raw.githubusercontent.com/jarretthuang/your-next-js-template/main/public/logo.png" alt="JH Labs" style="width: 60px; height: 60px; padding-left: 10px;" />
     </a>
 </h1>
