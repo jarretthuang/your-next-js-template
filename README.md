@@ -16,18 +16,17 @@
 
 ## Summary
 This is my go-to template for quickly bootstraping a Next.js project. It includes the following features:
-#### UI
+#### CSS
 - [x] Dark mode support
 - [x] Mobile-first responsive design
-- [x] Basic header + footer
-- [x] Scrollbar support
-- [x] Theme-colour support
+- [x] Theme colour support
+- [x] Themed scrollbar support
 
 #### Components
+- [x] Basic header + footer
 - [x] Routing example (`/section`)
 - [x] API example (`/api/hello`)
 - [x] Reusable layout component (`HomeLayout.tsx`)
-
 
 ## What it looks like
 <img alt="Demo" src="public/demo.png"></img>
